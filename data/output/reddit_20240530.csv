@@ -1,0 +1,246 @@
+id,title,selftext,score,num_comments,author,created_utc,url,upvote_ratio,over_18,edited,spoiler,stickied
+1d43xt2,A question for fellow Data Engineers if you have a raspberry pi what are you doing with it,"Im a data engineer but in my free time I like working on a variety of engineering projects for fun I have an old raspberry pi 3b which was once used to host a chatbot but its been switched off for a while
+
+Im curious what people here are using a raspberry pi for
+
+",93,87,MasterBongoV2,2024-05-30 13:23:01,https://www.reddit.com/r/dataengineering/comments/1d43xt2/a_question_for_fellow_data_engineers_if_you_have/,0,False,False,False,False
+1d4253h,This is how we should handle nulls in Data warehouse as per kimball,"Hi everyone I am reading this book  Datawarehouse toolkit Found this interesting and important in 3rd chapter thought of sharing with you guys  
+Handling Nulls in dimension vs Fact table in a good design  
+TLDR Add some meaningfull label for null in dimension table like Unknown or Not Applicable or 1 But in fact table we should be careful while adding these labels they may endup adding into our aggregated results in fact table during any aggregate query min max or addquery Hence may lead to incosistent result
+
+httpspreviewreddit6j9tfznjxj3d1pngwidth745formatpngautowebps4d2bf7ef8fb75a1bf06b371f06dbfeda2cd53ec1",59,44,AggravatingParsnip89,2024-05-30 11:50:31,https://www.reddit.com/r/dataengineering/comments/1d4253h/this_is_how_we_should_handle_nulls_in_data/,0,False,False,False,False
+1d402kk,Lowercase or uppercase import pysparksqlfunctions as F OR f,What do you all do At my previous company it was always uppercase new one is lowercase Is there legit reasons behind the uppercase or is it just a convention,31,35,mlobet,2024-05-30 09:37:25,https://www.reddit.com/r/dataengineering/comments/1d402kk/lowercase_or_uppercase_import_pysparksqlfunctions/,0,False,False,False,False
+1d4a6tk,30 million rows in Pandas dataframe ,"I am trying to pull data from an API endpoint which gives out 50 records per call and has 30 million rows in total I append the records to a list after each api call but after a certain limit the file goes into an endless state as I think it is going out of memory Any steps to handle this
+I looked up online and thought multithreading would be an approach but it is not suited well for python Do I have to switch to a different library Sparkpolars etc",26,28,cyamnihc,2024-05-30 18:01:35,https://www.reddit.com/r/dataengineering/comments/1d4a6tk/30_million_rows_in_pandas_dataframe/,0,False,False,False,False
+1d46d8a,Airbytes Spring Release with a preview of the Connector Builder AI,,14,3,jeanlaf,2024-05-30 15:12:09,https://airbyte.com/blog/airbyte-spring-release-2024,0,False,False,False,False
+1d42c9p,How many fact tables in a star schema ,"As per this they seems to be suggesting multiple fact table when a transaction can contain multiple payment methods For such problems can we add multiple fact tables in our star schema and then later join them based on some unique id is it good approach 
+
+httpspreviewreddit3q9yumiizj3d1pngwidth738formatpngautowebps3f8bc3d60f66f69de494257d3d971f2676cd5dc9
+
+httpspreviewreddit0zkttyexzj3d1pngwidth745formatpngautowebpsc4a82d003db15de9b81119eb6ed150a12f82c346
+
+Note Screenshot from Kimball book on dwh",13,7,AggravatingParsnip89,2024-05-30 12:01:26,https://www.reddit.com/r/dataengineering/comments/1d42c9p/how_many_fact_tables_in_a_star_schema/,0,False,False,False,False
+1d4b35o,Moved from a Data Analyst position to ETL Developer and the tech stack isnt great in the new role What should I focus on to upskill ,"I just accepted an ETL developer role although Im trying to negotiate calling the role just Data Engineer The role will be more focused on reporting at the start but they say theyll be doing some data migration projects soon Unfortunately I think its all in SQL They dont have airflow snowflake dbt databricks or any of what I would describe as cv booster technology 
+
+I dont really have an option to not take the role because transitioning from data analysis with only experience in SQL and some python this is about the best I can do My degree was in statistics and math not comp sci 
+
+What should I try and focus on to get a better data engineering job for my next role For reference its a non profit so I doubt theyll even be able to afford any of that tech stack ",11,8,SorcerorsSinnohStone,2024-05-30 18:39:39,https://www.reddit.com/r/dataengineering/comments/1d4b35o/moved_from_a_data_analyst_position_to_etl/,0,False,False,False,False
+1d4dskd,How we built a 70 cheaper data warehouse Snowflake to DuckDB,,12,6,howMuchCheeseIs2Much,2024-05-30 20:34:48,https://www.definite.app/blog/duckdb-datawarehouse,0,False,False,False,False
+1d47t50,Spark for really really small data,"Hey everyone
+
+I have a task where the end clients want everything in a delta tables in Databricks  There are between 4050 tables that I parsed  And each table has a max amount of 200 rows and between 70 columns There might be more data in the future but I doubt it would be much more than what we have currently 
+
+
+I wrote the original ETL in pandas and it works fine One of my colleagues wants me to write it in Spark since thats native to Databricks and to would be faster and we might have to scale eventually I really doubt it  
+
+Anyway is it worth it for that small of data
+
+
+
+
+
+
+
+
+Edit I just found out that there is not enough funding for this project so NOTHING MATTERS ANYWAY",8,22,blacksnowboader,2024-05-30 16:14:31,https://www.reddit.com/r/dataengineering/comments/1d47t50/spark_for_really_really_small_data/,1,False,False,False,False
+1d43att,"Compute vs Scheduling in Dagster
+","Hi all
+
+Ive just started using Dagster  
+I briefly tried Prefect as well Not a fan for its deployment model and its UI
+
+I feel like Dagster is much more feature rich It has the concept of assets and resources  
+I do feel like it promotes its use way beyond a scheduler Therefore it creates a coupling between scheduling and compute  
+What is your opinion about it
+
+I followed the tutorial on Dagster website It was interesting  
+The last part of Resources was interesting but in that scenario Dagster becomes a compute engine as well
+
+Is it Dagster vision to be used as a big data framework to do everything scheduling compute and catalog
+
+Obviously it can used just for monitoring just like in Airflow and Im probably gonna use it this way for now
+
+Thanks for your feedback",7,2,yinshangyi,2024-05-30 12:51:46,https://www.reddit.com/r/dataengineering/comments/1d43att/compute_vs_scheduling_in_dagster/,0,False,False,False,False
+1d3zzjn,UK job market,"Anybody here also struggling to find roles in London that pay a decent amount 
+Some of the salaries are quite shocking Senior roles priced at 65k Head Of at 90k etc
+Also we all need to be AI experts as well now 
+Sorry for the rant just a disgruntled applicant",6,9,GiacomoLeopardi6,2024-05-30 09:31:25,https://www.reddit.com/r/dataengineering/comments/1d3zzjn/uk_job_market/,0,False,False,False,False
+1d3u46j,Does it make sense to use the General Ledger to account for marketing expenses,"Hello looking for some generic feedback on approach here I work for a small org and Im learning
+
+Ive been tasked with building a dashboard with some acquisition performance data and some market spend data The acquisition data is self reported whered you hear about us kind of stuff with known categories like Google and Yelp The market spend data is in the General Ledger apparently identified by manually scrubbing the memos under specific account numbers and categorizing the transactions then adding up the costs
+
+At first I didnt think anything of it Ill find a pattern in the memos that can reliably be used for categorization or maybe use something a little more fancy like NER However it started feeling like something was off first off theres a bunch of unrelated transactions in these accounts and then theres a bunch of ambiguous but definitely related transactions in there as well Some memos seem like slight variations of each other suggesting that maybe a human typed it that means I might even need to worry about typos Once you get into the weeds of things its not so cut and dry
+
+Ive tried reaching out to some individuals for support What am I missing here as cost categorization shouldnt be so difficult right Surely there should be a map of transaction numbers to vendors or something somewhere right Or the Marketing department shouldnt they know what theyre spending money on Why are we even trying to categorize cryptic transaction memos
+
+I cant get over the feeling that theres some big picture on the wall that I just cant see a simple answer to which I just dont have the domain knowledge to identify Ive been looking into accounting terms and concepts to figure this out but its a labyrinth
+
+Are there any generalizable approaches here that were probably missing What are you aware of Thanks ",5,3,DuckDatum,2024-05-30 03:01:17,https://www.reddit.com/r/dataengineering/comments/1d3u46j/does_it_make_sense_to_use_the_general_ledger_to/,0,False,False,False,False
+1d49psj,Feeling stuck in a subpar DE Role invest in skill improvement or start job hunting,"I wanted to relocate and worked hard to prepare for FAANG positions but then the hiring freeze hit I ended up accepting a subpar job offer because it allowed me to move to the place I wanted to be The tech stack seemed exciting with tools like Airflow and Databricks
+
+However now that Im six months into the job Ive mostly been involved in a migration project that required extensive testing and updating hardcoded configurations Currently Im working on other projects but none of them involve Spark Most of the new data engineering DE development is either outsourced or simply not happening So no interesting projects Additionally there are few opportunities for promotion within DE as all senior and leadership roles are focused on data science with DEs relegated to support roles Plus the commute is bad All of this has really affected my motivation
+
+Should I keep grinding investing my time in learning spark and improving Spark code performance in my spare time or should I start grinding Leetcode again and look for a new job ",5,4,ask_can,2024-05-30 17:35:18,https://www.reddit.com/r/dataengineering/comments/1d49psj/feeling_stuck_in_a_subpar_de_role_invest_in_skill/,0,False,False,False,False
+1d3zuh9,Experiences Using Kafka for Integrating SAP with Snowflake and Other Cloud Services,"Hey fellow data engineers
+
+Im currently working on a project that involves integrating SAP with various cloud services including Snowflake for analytics purposes Weve been considering using Kafka as the integration tool to facilitate realtime data streaming between these systems
+
+However Ive heard mixed reviews about using Kafka for such integrations Some of the main concerns Ive come across include issues with data consistency and the constant struggle to get everything working correctly
+
+Id love to hear from anyone who has experience using Kafka for similar purposes
+
+ Have you successfully used Kafka to integrate SAP with Snowflake or other cloud services
+ What challenges did you face regarding data consistency and how did you overcome them
+ Any tips or best practices youd recommend to ensure a smooth integration process
+
+Thanks in advance for sharing your experiences and insights",5,0,OkSentence8542,2024-05-30 09:21:18,https://www.reddit.com/r/dataengineering/comments/1d3zuh9/experiences_using_kafka_for_integrating_sap_with/,0,False,False,False,False
+1d49brc,Open Source or Azure,"Hey everybody
+
+
+
+I am working on building out a personal project Personal Finances to build my skill as a data engineer I have posted about this before but I feel like I am getting caught up in what route I should take Open Source or Cloud Provider
+
+Goal 1 The goal is to build out a sustainable pipeline for my financial data that I could maintain and use for the foreseeable future  serving analytics and Machine Learning eventually once I learn how to do it lol
+
+Goal 2 Build out a pipeline for all my data Financial Transactions podcast files images important documents  This is probably overkill I know  but a guy can dream Which is why Ive included data lakes in both architectures
+
+I currently work at a Microsoft organization as a Data Analyst working predominantly with Power BI  which is why the natural next step would be to start using Azure Tools for consolidated compatibility I have already created a free tier account and begin working to build out pipeline However after reading this sub for a while it seems like everyone uses opensource tools instead which require more programming  which sounds like a good thing because I would like to build up my skillset in Python
+
+I am struggling because I want to make the right decision for my career  not just finding a job but improving my skillset as a data engineer I know on one level maybe it really doesnt matter I just need to start somewhere and figure it out as I go but I just want to make a good decision for my first project
+
+Currently contemplating
+
+Azure Pipeline
+
+1 Ingestion  Manually downloading CSV files from bank  will use python for file organization to ADLS container
+
+2 Storage  Azure Data Lake Storage Gen 2
+
+3 Transformation  Azure Data Bricks
+
+4 Serving  Azure Synapse Analytics Structured data will live here
+
+5 Analytics  Power BI
+
+
+
+OpenSource Pipeline
+
+1 Ingestion  Manually downloading CSV files from bank  will use python for file organization to ADLS container
+
+2 Storage  Dremio
+
+3 Transformation  DBT
+
+4 Serving  PostGres SQL Structured data will live here
+
+5 Analytics  Power BI",4,3,teedollas,2024-05-30 17:17:50,https://www.reddit.com/r/dataengineering/comments/1d49brc/open_source_or_azure/,1,False,False,False,False
+1d412e0,Solutioning Manual Andustments,"If baseline data is sourced systematically  and lets say there are 20 variables that play into a final output calculation At any time someone needs the ability to alter one of those variables and see the impact what if analysis on the calculations and visualizations to go with this data
+
+Is there a tool for this  Is excel the only option for those manual adjustments",4,3,Rough_Count_7135,2024-05-30 10:44:04,https://www.reddit.com/r/dataengineering/comments/1d412e0/solutioning_manual_andustments/,1,False,False,False,False
+1d3w6bd,Is Oracle LogMiner going away and will this affect Debezium,"Im testing debezium in my work
+Works great for mssql but we have clients with Oracle but Oracle is removing logminer after 19c
+How debezium Will work 
+The goldengate license cost is too expensive",3,0,AdMaximum6886,2024-05-30 05:00:03,https://www.reddit.com/r/dataengineering/comments/1d3w6bd/is_oracle_logminer_going_away_and_will_this/,0,False,False,False,False
+1d3s9ib,Meltano  Pros and Cons,"We are planning to use meltano for our company having nearly gbs of data and only few in thousand 5080  records are generated daily Will it be the best extraction tool to use 
+
+And  what are its other good aspects except providing the wholesome environment for whole data engineering ecosystem  
+
+What are its other aspects I need to consider before going to production ",4,1,Suspicious_Peanut282,2024-05-30 01:26:30,https://www.reddit.com/r/dataengineering/comments/1d3s9ib/meltano_pros_and_cons/,0,False,False,False,False
+1d4a8p3,Can I still be a data engineer if I dont know Python,httpsmonimillercomblogshouldmydataengineeringtitleberevokedifidontknowpythonhttpsmonimillercomblogshouldmydataengineeringtitleberevokedifidontknowpython,1,36,monimiller,2024-05-30 18:03:35,https://www.reddit.com/r/dataengineering/comments/1d4a8p3/can_i_still_be_a_data_engineer_if_i_dont_know/,0,False,False,False,False
+1d49quu,Help with big data,"Hi guys
+
+I am a Jr Data Engineer with little to no experience in big volumes of data and in my project I am in the need to export data from Snowflake to S3 but due to a company policy I can not use the Stages in snowflake to export the data directly 
+
+The issue is that each table is near 100 GB of data which is a lot to make that process with only python and pandas that is what I usually use
+
+What would you think it is the best approach to get this data from Snowflake to S3 Maybe using spark I am working with AWS",3,3,dukit0,2024-05-30 17:36:34,https://www.reddit.com/r/dataengineering/comments/1d49quu/help_with_big_data/,1,False,False,False,False
+1d422gn,DuckDB Doesnt Need Data To Be a Database,,3,0,commandlineluser,2024-05-30 11:46:17,https://www.nikolasgoebel.com/2024/05/28/duckdb-doesnt-need-data.html,0,False,False,False,False
+1d3pjtl,Starting small going from CSV to visualizations,"Hey everyone 
+
+I am trying to build support to use more sophisticated tools for data analysis At the moment we use ExcelBA and a tiny bit of Power BI
+
+One thing we do have is a regular CSV download of some data which Id like to use to create a dashboard It could probably be used to replace and automate a number of our current reports too
+
+I am hoping to start small using Python Numpy Pandas etc and perhaps branching out into Plotly Dash to visualise the data and remove the manual compilation of reports that we do at the moment
+
+My questions are really about how small I should go From a bit of research it seems I have a lot of options such as
+
+ Raw data load into memory and then load into a data frame
+ ETL similar process to Power BI I imagine
+ ELT which I think means holding a SQL table that mirrors the source data and then having a script that transforms the data into a new table to be queried
+ Perhaps something more sophisticated considering that Id like to just load the data once a day and then query it
+
+Im also a bit unsure about the boundaries Im going to be doing every aspect so it would be helpful to know where the DE part ends is it getting it into a SQL DB and then where the DADS part starts querying the DB and loading into Plotly Dash Or should I be combining this all into one application
+
+Thanks in advance and Im happy to answer questions",3,2,OperationWebDev,2024-05-29 23:12:47,https://www.reddit.com/r/dataengineering/comments/1d3pjtl/starting_small_going_from_csv_to_visualizations/,0,False,False,False,False
+1d4dcpx,What is the best way to ingest 20GB CSVParquet files to S3,"I have a system that generated 20GB files every 1015 minutes in CSV or Parquet format I want to build an ingestion pipeline that writes these files as Iceberg tables in S3 I came up with a Kafka Ingestion and Spark Consumer that writes Iceberg rows However I am taking 20 minutes just to read a 3GB Parquet file and write it to a Kafka topic I did some profiling and 
+
+1 Almost 78 minutes are spent on the producerproduce function
+2 46 minutes on pandasread_parquet or pyarrow read
+3 Rest of time parsing key value and encoding as JSON
+
+Is this a reasonable speed What can I do to speed up my Kakfa ingestion and producerproduce time Is there any alternate way to read or process parquet files than using pandas and reading everything into memory all at once",2,5,DueResearcher8399,2024-05-30 20:16:21,https://www.reddit.com/r/dataengineering/comments/1d4dcpx/what_is_the_best_way_to_ingest_20gb_csvparquet/,1,False,False,False,False
+1d4cpca,Data engineering Skillsresponsibilities ,"Hi all
+
+I am currently writing a white paper within my company providing suggesting of a skills audit and defining roles properly When I say properly currently all data professionals have the data scientist title and I am suggesting there needs to be some granularity to this 
+
+Are there any go to sources preferably modern ones which highlight the core differences between different data roles andor how much a given role splits their time between tasks Have heard many percentages for the amount of time a data scientist spends on data prep and cleaning but never identified sources for such 
+
+I am particularly interested in separating our data engineering data analytics and machine learning into their own subtitles",2,1,RobDoesData,2024-05-30 19:48:42,https://www.reddit.com/r/dataengineering/comments/1d4cpca/data_engineering_skillsresponsibilities/,1,False,False,False,False
+1d47v1o,Building Data Platforms from scratch ,,2,0,dataengineeringdude,2024-05-30 16:16:43,https://www.confessionsofadataguy.com/building-data-platforms-from-scratch/,1,False,False,False,False
+1d3uqx0,Recommendation for data data sources for time series analysis and forecasting,"I have a projectassignment coming up about time series analysis and forecasting at my school Could you please suggest me some time series data sources with large complex and many attributesvariables datasets
+
+Many thanks",2,0,Sensitive_Web6152,2024-05-30 03:35:40,https://www.reddit.com/r/dataengineering/comments/1d3uqx0/recommendation_for_data_data_sources_for_time/,0,False,False,False,False
+1d4fl1j,How does your team grant access to source tables used by devs to build DBT models ,"Howdy 
+
+Curious how others manage the access to the tables needed by developers using DBT 
+
+We have been granting select access to the loaded tables which devs use to build their dbt models on Users are granted access to the tables based on roles with masking in place 
+
+Bit confused when I read around and see others only granting access via the bronze layer or premade source models Is that common
+
+Feel confused on how you let people build models but dont give access to the root tables for them to build off 
+
+Thanks",1,2,Namur007,2024-05-30 21:59:42,https://www.reddit.com/r/dataengineering/comments/1d4fl1j/how_does_your_team_grant_access_to_source_tables/,0,False,False,False,False
+1d4eazw,BI tool that understands python,Do you ever wish you had a BI tool that gave the simplicity of building charts but also allowed writing SQL and Python to further finetune the analysis What I have often found is that most BI tools are good at pointandclick The moment you have to do something custom you have to either learn their proprietary language or jump through complex hoops to achieve something simple Notebooks on the other hand are great for exploration but they arent meant for business people Have you also run into this Im curious to hear your thoughts,1,3,glinter777,2024-05-30 20:56:47,https://www.reddit.com/r/dataengineering/comments/1d4eazw/bi_tool_that_understands_python/,0,False,False,False,False
+1d4baoe,Doing an AWS POC,"Hello
+
+I am trying to do a POC for datawarehousing using AWS For the current scope I am
+
+  
+1 Trying to load about 3 months worth of test data 120GB from my local machine into MySQL RDS Path is Local  EC2  RDS
+
+ To do this I dumped the data into csv files and running scp to move the data local  EC2 However for about 13GB data it took close to 48 mins This is too long I feel What are the timelines for such data transfer approximately  and the best way to do that 
+
+Thank you for your help",1,0,harpar1808,2024-05-30 18:48:37,https://www.reddit.com/r/dataengineering/comments/1d4baoe/doing_an_aws_poc/,0,False,False,False,False
+1d4bix0,Platform to run SQL queries,"Hey folks  Im wondering if anyone can recommend a selfhosted open source platform to run SQL queries  execute sql files I have a Python library that sort of does this now but its a little cumbersome to use and an absolute memory hog Probably other issues with the SQL but thats a separate issue
+
+Over the years weve accumulated 5 different ways to execute a SELECT on some databases to generate CSVs and attach it to an email wondering if there is some tooling that can manage this kind of workflow
+
+Any suggestions",0,4,CyEriton,2024-05-30 18:58:09,https://www.reddit.com/r/dataengineering/comments/1d4bix0/platform_to_run_sql_queries/,0,False,False,False,False
+1d49oe2,Help with giving a per hour rate for project work and possible junior data engineer role,"Hey everyone 
+
+Currently I work as a Software Automation QA with over a decade of experience Im working my way to switch to DE  Im currently based out of Calgary 
+I am in conversation with a start up and they offered me to do a paid project and then start as a junior DE in the company 
+The co founder I spoke to is based out of Portugal and asked me for the hourlydaily rates for the project and the potential salary for the Junior DE role
+Any suggestionshelp with what is the amount should I be quoting
+Should I quote as per the rates in Portugal since hes based out of there or should I quote as per USCanada standard rates",0,1,joy_warzone,2024-05-30 17:33:28,https://www.reddit.com/r/dataengineering/comments/1d49oe2/help_with_giving_a_per_hour_rate_for_project_work/,0,False,False,False,False
+1d48sjx,Pdf table extraction ,Need to extract table from pdf Which python will be better Camelot img2table pymupdf Any other suggestions please,0,2,GladYak7567,2024-05-30 16:54:37,https://www.reddit.com/r/dataengineering/comments/1d48sjx/pdf_table_extraction/,0,False,False,False,False
+1d47m34,Hows the data engineering market right now,"I am interested in DE I would require some trainings and studying but I am wondering how the market is right now Markets for Data Science and Analytics is not so great right now so maybe a switch would benefit me
+
+x200B
+
+I appreciate your answers ",0,6,CuriousFig9882,2024-05-30 16:05:58,https://www.reddit.com/r/dataengineering/comments/1d47m34/hows_the_data_engineering_market_right_now/,0,False,False,False,False
+1d3tuug,GCP Vector Search as Vector Database,Im looking for a vector database that can scale  around 500m embeddings I want to know how GCP Vector Search compares to other solutions such as QDrant and Milvus Seems like GCP Vector Search is super easy to get started and has high performance Im not sure why more people arent talking about it,0,0,Ok_Rich9755,2024-05-30 02:47:50,https://www.reddit.com/r/dataengineering/comments/1d3tuug/gcp_vector_search_as_vector_database/,0,False,False,False,False
+1d4dqkd,Data engineering vs SDE,"What would you enjoy working as
+Hi all worked in WITCH as an Aws Data engineer writing Python Script for AWS Lambda Handlers debugging monitoring and I dont enjoy the work I do because the work is more like fixing the pipeline and monitoring it round the clock just like devops I want to be more on the development side but with my current pay i am not motivated to go ahead with being a data engineer
+
+Currently looking for career change towards being a SDE and switch opportunities
+
+Would Like to get some help from you guys for preparing for a switch
+
+I have E2 level of knowledge in python and E1 level in SQL However Is it advisable to learn Java first and then DSA I would like to get into the depths of memory Suggestions are welcomed",0,0,Ryzen_bolt,2024-05-30 20:32:26,https://www.reddit.com/r/dataengineering/comments/1d4dqkd/data_engineering_vs_sde/,0,False,False,False,False
+1d47auz,SQL server to bigquery data transfer via the gcp console,How do I move data from SSMS to bigquery using data flow via the gcp console and NOT the command line I already created tables using sql in bigquery that have similar schema to the SSMS tables I want to transfer Also having trouble figuring out the JDBC connection string Kinda new to this so any help would be appreciated,0,2,ObviousCheesecake0,2024-05-30 15:52:34,https://www.reddit.com/r/dataengineering/comments/1d47auz/sql_server_to_bigquery_data_transfer_via_the_gcp/,0,False,False,False,False
+1d46aqi,Building your Data Team  Blog post on what skills you need,,0,0,teek22,2024-05-30 15:09:20,https://www.indatawetrust.co.uk/building-your-data-team-the-essential-skills-you-need,0,False,False,False,False
+1d42n7e,Hey Folks were conducting a quick survey to understand how cloud databases are used in companies today Your input could help us develop better solutions for cloud challenges PS  Currently were unable to offer anything in return for survey completion but still hope to see responses  2 minutes,,0,0,neothemaster,2024-05-30 12:17:21,https://forms.gle/1K4aeKAHjLsq4Vy87,0,False,False,False,False
